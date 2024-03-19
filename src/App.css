@@ -14,7 +14,7 @@ input[type='text'] {
 
 .buttons {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr)); /* Usando minmax(0, 1fr) para garantir um comportamento mais consistente */
+  grid-template-columns: repeat(4, 1fr);
   gap: 5px;
 }
 
@@ -24,9 +24,9 @@ button {
   border: none;
   background-color: #f0f0f0;
   cursor: pointer;
-  transition: background-color 0.3s; /* Adicionando uma transição suave */
 }
 
 button:hover {
   background-color: #e0e0e0;
 }
+

@@ -1,0 +1,13 @@
+.code-container {
+    width: 80%;
+    margin: 0 auto;
+    overflow-x: auto;
+}
+
+.java {
+    display: block;
+    background-color: #f4f4f4;
+    padding: 1em;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
